@@ -1,0 +1,26 @@
+/* Generales */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: #000;
+    width: 90%;
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www.logaster.com.es/blog/wp-content/uploads/2019/01/4-min.jpg);
+    // background-attachment: fixed;
+    // background-position-x: center;
+    // background-position-y: center;
+    background-size: auto;
+}

@@ -1,0 +1,14 @@
+@import 'fonts';
+@import 'general';
+@import 'buttons';
+
+/* Personalizados */
+.contenedor {
+    width: 450px;
+    height: 500px;
+    background-color: rgba(0,0,0,.5); 
+    text-align: center;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: row;    
+}
