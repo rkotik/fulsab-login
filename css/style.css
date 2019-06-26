@@ -34,6 +34,10 @@ body {
   background-size: auto;
 }
 
+.center {
+  text-align: center;
+}
+
 /* Personalizados */
 .contenedor {
   width: 450px;
