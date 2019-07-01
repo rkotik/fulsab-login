@@ -30,8 +30,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(https://www.logaster.com.es/blog/wp-content/uploads/2019/01/4-min.jpg);
-  background-size: auto;
+  background-image: url(https://concepto.de/wp-content/uploads/2015/02/futbol-1-e1550783405750.jpg);
+  background-attachment: fixed;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
 }
 
 h2.center {
@@ -41,10 +44,29 @@ h2.center {
 
 /* Personalizados */
 .contenedor {
-  width: 450px;
-  height: 500px;
-  background-color: rgba(0, 0, 0, 0.5);
+  width: 680px;
+  height: 440px;
+  background-color: white;
   text-align: center;
-  padding: 15px 30px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.col-sm-6 {
+  width: 50%;
+  height: 440px;
+}
+
+.color {
+  background-color: orangered;
+  height: 440px;
 }
 /*# sourceMappingURL=style.css.map */
